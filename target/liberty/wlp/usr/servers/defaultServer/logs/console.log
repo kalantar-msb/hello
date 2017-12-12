@@ -1,0 +1,24 @@
+JVMSHRC287E Persistent cache cannot be located on a networked file system. Either select "nonpersistent" or a different cacheDir.
+JVMSHRC686I Failed to startup shared class cache. Continue without using it as -Xshareclasses:nonfatal is specified
+Launching defaultServer (WebSphere Application Server 17.0.0.3/wlp-1.0.18.cl170320170927-1854) on IBM J9 VM, version 8.0.5.0 - pxa6480sr5-20170905_01(SR5) (en_US)
+[AUDIT   ] CWWKE0001I: The server defaultServer has been launched.
+[AUDIT   ] CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/17.0.0.3/lafiles/en.html
+[AUDIT   ] CWWKZ0058I: Monitoring dropins for applications. 
+[AUDIT   ] CWWKS4104A: LTPA keys created in 0.861 seconds. LTPA key file: /project/target/liberty/wlp/usr/servers/defaultServer/resources/security/ltpa.keys
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://b1d76b0dfd24:9080/ibm/api/
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://b1d76b0dfd24:9080/health/
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://b1d76b0dfd24:9080/metrics/
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://b1d76b0dfd24:9080/jwt/
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://b1d76b0dfd24:9080/hello/
+[AUDIT   ] CWWKZ0001I: Application hello-1.0-SNAPSHOT started in 3.823 seconds.
+[AUDIT   ] CWWKF0012I: The server installed the following features: [microProfile-1.2, mpFaultTolerance-1.0, servlet-3.1, ssl-1.0, jndi-1.0, mpHealth-1.0, appSecurity-2.0, jsonp-1.0, mpConfig-1.1, jaxrs-2.0, jaxrsClient-2.0, concurrent-1.0, jwt-1.0, mpMetrics-1.0, mpJwt-1.0, json-1.0, cdi-1.2, distributedMap-1.0].
+[AUDIT   ] CWWKF0011I: The server defaultServer is ready to run a smarter planet.
+[AUDIT   ] CWWKE0055I: Server shutdown requested on Tuesday, December 12, 2017 at 2:06 PM. The server defaultServer is shutting down.
+[AUDIT   ] CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[AUDIT   ] CWWKT0017I: Web application removed (default_host): http://b1d76b0dfd24:9080/jwt/
+[AUDIT   ] CWWKT0017I: Web application removed (default_host): http://b1d76b0dfd24:9080/hello/
+[AUDIT   ] CWWKT0017I: Web application removed (default_host): http://b1d76b0dfd24:9080/health/
+[AUDIT   ] CWWKT0017I: Web application removed (default_host): http://b1d76b0dfd24:9080/metrics/
+[AUDIT   ] CWWKT0017I: Web application removed (default_host): http://b1d76b0dfd24:9080/ibm/api/
+[AUDIT   ] CWWKZ0009I: The application hello-1.0-SNAPSHOT has stopped successfully.
+[AUDIT   ] CWWKE0036I: The server defaultServer stopped after 40.356 seconds.

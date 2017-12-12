@@ -1,0 +1,79 @@
+********************************************************************************
+product = WebSphere Application Server 17.0.0.3 (wlp-1.0.18.cl170320170927-1854)
+wlp.install.dir = /project/target/liberty/wlp/
+java.home = /opt/ibm/java/jre
+java.version = 1.8.0_144
+java.runtime = Java(TM) SE Runtime Environment (8.0.5.0 - pxa6480sr5-20170905_01(SR5))
+os = Linux (3.13.0-39-generic; amd64) (en_US)
+process = 288@b1d76b0dfd24
+********************************************************************************
+[12/12/17 14:05:55:166 UTC] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[12/12/17 14:05:55:222 UTC] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/17.0.0.3/lafiles/en.html
+[12/12/17 14:05:58:331 UTC] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 3.623 seconds
+[12/12/17 14:05:59:520 UTC] 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[12/12/17 14:06:17:175 UTC] 0000001b com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[12/12/17 14:06:18:545 UTC] 0000001b com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications. 
+[12/12/17 14:06:18:570 UTC] 0000002a com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv4) port 9080.
+[12/12/17 14:06:18:970 UTC] 0000001b com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[12/12/17 14:06:18:972 UTC] 0000001b com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[12/12/17 14:06:18:974 UTC] 0000001b com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[12/12/17 14:06:19:097 UTC] 0000002a com.ibm.ws.security.token.ltpa.internal.LTPAKeyInfoManager   I CWWKS4103I: Creating the LTPA keys. This may take a few seconds.
+[12/12/17 14:06:19:177 UTC] 0000001b ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[12/12/17 14:06:19:958 UTC] 0000002a com.ibm.ws.security.token.ltpa.internal.LTPAKeyInfoManager   A CWWKS4104A: LTPA keys created in 0.861 seconds. LTPA key file: /project/target/liberty/wlp/usr/servers/defaultServer/resources/security/ltpa.keys
+[12/12/17 14:06:19:964 UTC] 0000002a com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.875 seconds.
+[12/12/17 14:06:20:150 UTC] 0000001b com.ibm.ws.security.jwt.internal.ConsumerImpl                I CWWKS6012I: The JSON Web Token (JWT) consumer service is available.
+[12/12/17 14:06:20:170 UTC] 0000001b com.ibm.ws.security.jwt.web.JwtEndpointServices              I CWWKS6002I: The JSON Web Token (JWT) endpoint service is available.
+[12/12/17 14:06:20:376 UTC] 0000001b com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5500I: The MicroProfile JWT configuration [MicroProfileJwtService] was successfully processed.
+[12/12/17 14:06:20:589 UTC] 0000001b com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[12/12/17 14:06:22:754 UTC] 0000002c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: health.
+[12/12/17 14:06:22:754 UTC] 0000002a com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ibm/api.
+[12/12/17 14:06:22:772 UTC] 0000002a com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ibm/api has been bound to default_host.
+[12/12/17 14:06:22:767 UTC] 0000002c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module health has been bound to default_host.
+[12/12/17 14:06:22:785 UTC] 0000002a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://b1d76b0dfd24:9080/ibm/api/
+[12/12/17 14:06:22:792 UTC] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://b1d76b0dfd24:9080/health/
+[12/12/17 14:06:23:077 UTC] 00000029 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: MicroProfileMetrics.
+[12/12/17 14:06:23:083 UTC] 00000029 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module MicroProfileMetrics has been bound to default_host.
+[12/12/17 14:06:23:092 UTC] 00000029 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://b1d76b0dfd24:9080/metrics/
+[12/12/17 14:06:23:186 UTC] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application hello-1.0-SNAPSHOT.
+[12/12/17 14:06:23:212 UTC] 0000002b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: com.ibm.ws.security.jwt.
+[12/12/17 14:06:23:218 UTC] 0000002b com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module com.ibm.ws.security.jwt has been bound to default_host.
+[12/12/17 14:06:23:233 UTC] 0000002b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://b1d76b0dfd24:9080/jwt/
+[12/12/17 14:06:23:365 UTC] 0000002a com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/health
+[12/12/17 14:06:23:366 UTC] 0000002b com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/metrics
+[12/12/17 14:06:23:365 UTC] 00000029 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ibm/api
+[12/12/17 14:06:23:410 UTC] 0000002a com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[12/12/17 14:06:23:446 UTC] 0000002b com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[12/12/17 14:06:23:449 UTC] 00000029 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[12/12/17 14:06:23:498 UTC] 0000002b com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[12/12/17 14:06:23:761 UTC] 0000002a com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/jwt
+[12/12/17 14:06:23:762 UTC] 0000002a com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[12/12/17 14:06:23:825 UTC] 0000002b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.metrics] [/metrics] [MetricsRESTProxyServlet]: Initialization successful.
+[12/12/17 14:06:24:194 UTC] 0000002c org.jboss.weld.Version                                       I WELD-000900: 2.4.3 (Final)
+[12/12/17 14:06:26:991 UTC] 0000002c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: hello-1.0-SNAPSHOT.
+[12/12/17 14:06:26:992 UTC] 0000002c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module hello-1.0-SNAPSHOT has been bound to default_host.
+[12/12/17 14:06:26:992 UTC] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://b1d76b0dfd24:9080/hello/
+[12/12/17 14:06:27:001 UTC] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application hello-1.0-SNAPSHOT started in 3.823 seconds.
+[12/12/17 14:06:27:058 UTC] 0000002b com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/hello
+[12/12/17 14:06:27:060 UTC] 0000002b com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[12/12/17 14:06:27:264 UTC] 0000002a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /project/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[12/12/17 14:06:27:392 UTC] 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [microProfile-1.2, mpFaultTolerance-1.0, servlet-3.1, ssl-1.0, jndi-1.0, mpHealth-1.0, appSecurity-2.0, jsonp-1.0, mpConfig-1.1, jaxrs-2.0, jaxrsClient-2.0, concurrent-1.0, jwt-1.0, mpMetrics-1.0, mpJwt-1.0, json-1.0, cdi-1.2, distributedMap-1.0].
+[12/12/17 14:06:27:393 UTC] 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 29.062 seconds.
+[12/12/17 14:06:27:393 UTC] 00000024 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server defaultServer is ready to run a smarter planet.
+[12/12/17 14:06:32:197 UTC] 00000037 .ibm.ws.jaxrs.2.0.common:1.0.18.cl170320170927-1854(id=183)] I Setting the server's publish address to be /
+[12/12/17 14:06:32:666 UTC] 00000037 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [hello-1.0-SNAPSHOT] [/hello] [application.rest.JaxrsApplication]: Initialization successful.
+[12/12/17 14:06:33:344 UTC] 00000019 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Tuesday, December 12, 2017 at 2:06 PM. The server defaultServer is shutting down.
+[12/12/17 14:06:33:369 UTC] 00000039 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[12/12/17 14:06:33:378 UTC] 0000003a com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host *  (IPv4) port 9080.
+[12/12/17 14:06:33:381 UTC] 0000003a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://b1d76b0dfd24:9080/jwt/
+[12/12/17 14:06:33:382 UTC] 0000003a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://b1d76b0dfd24:9080/hello/
+[12/12/17 14:06:33:384 UTC] 0000003a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://b1d76b0dfd24:9080/health/
+[12/12/17 14:06:33:386 UTC] 0000003a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://b1d76b0dfd24:9080/metrics/
+[12/12/17 14:06:33:388 UTC] 0000003a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://b1d76b0dfd24:9080/ibm/api/
+[12/12/17 14:06:33:398 UTC] 00000039 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[12/12/17 14:06:33:459 UTC] 00000024 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [hello-1.0-SNAPSHOT] [/hello] [application.rest.JaxrsApplication]: Destroy successful.
+[12/12/17 14:06:33:487 UTC] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application hello-1.0-SNAPSHOT has stopped successfully.
+[12/12/17 14:06:33:543 UTC] 00000039 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [com.ibm.ws.microprofile.metrics] [/metrics] [MetricsRESTProxyServlet]: Destroy successful.
+[12/12/17 14:06:33:779 UTC] 00000039 com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5502I: The MicroProfile JWT configuration [MicroProfileJwtService] was successfully deactivated.
+[12/12/17 14:06:33:866 UTC] 00000039 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
+[12/12/17 14:06:33:901 UTC] 00000039 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been deactivated. 
+[12/12/17 14:06:35:062 UTC] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server defaultServer stopped after 40.356 seconds.
