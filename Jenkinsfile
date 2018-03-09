@@ -3,7 +3,7 @@
 @Library('MicroserviceBuilder') _
 microserviceBuilderPipeline {
   image = 'hello'
-  build='true'
-  deploy='false'
-  test='false'
+  // build='true'
+  // deploy='false'
+  // test='false'
 }
